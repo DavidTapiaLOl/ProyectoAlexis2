@@ -31,10 +31,10 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-<<<<<<< HEAD
+
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Navbarlateral');
-=======
+/* =======
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, segundoP19');
->>>>>>> f80225a43bf03efcced3f0155698c1b7e62da3b1
+>>>>>>> f80225a43bf03efcced3f0155698c1b7e62da3b1 */
   });
 });
