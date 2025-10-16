@@ -14,16 +14,27 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
+
   it(`should have the 'Navbarlateral' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('Navbarlateral');
+/* =======
+  it(`should have the 'segundoP19' title`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('segundoP19');
+>>>>>>> f80225a43bf03efcced3f0155698c1b7e62da3b1 */
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
+<<<<<<< HEAD
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Navbarlateral');
+=======
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, segundoP19');
+>>>>>>> f80225a43bf03efcced3f0155698c1b7e62da3b1
   });
 });
